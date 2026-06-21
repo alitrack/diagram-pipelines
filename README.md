@@ -23,4 +23,3 @@ node render.cjs input.mmd output.png [scale]
 
 - `beautiful-mermaid` does not support `subgraph` — use CDN mermaid for those
 - Chromium binary expected at `~/.cache/ms-playwright/chromium-1228/chrome-linux64/chrome`
-- WSL proxy: `export https_proxy=http://172.19.112.1:7897`
