@@ -46,7 +46,7 @@ mcp_servers:
 
 | Pipeline | Input | Engine | Browser |
 |----------|-------|--------|:-------:|
-| **mermaid** | Mermaid text | beautiful-mermaid + CDN mermaid | 🟡 |
+| **mermaid** | Mermaid text | beautiful-mermaid + CDN mermaid | ✅ (PNG only) |
 | **markdown-card** | Markdown | marknative + skia-canvas | ❌ |
 | **drawio-bridge** | draw.io SVG | Playwright Chromium | ✅ |
 

@@ -1,7 +1,7 @@
 {
   "name": "mermaid-png-mcp",
-  "version": "1.0.0",
-  "description": "Mermaid → PNG MCP server. Zero-DOM (beautiful-mermaid) + CDN mermaid (subgraphs). Renders diagrams to PNG via the render_mermaid tool.",
+  "version": "1.0.1",
+  "description": "Mermaid → PNG MCP server. Two renderers: beautiful-mermaid (fast, no DOM needed for SVG) and CDN mermaid (full features, subgraphs). Both use Chromium for final PNG output.",
   "main": "mermaid/src/mcp-server.mjs",
   "bin": {
     "mermaid-png-mcp": "mermaid/src/mcp-server.mjs"
