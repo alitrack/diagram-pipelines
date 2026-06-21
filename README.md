@@ -6,20 +6,21 @@ Zero-browser Mermaid → PNG rendering pipeline.
 
 | Renderer | File | Dependency | Best for |
 |----------|------|-----------|----------|
-| **beautiful-mermaid** | `render-beautiful.mjs` | zero-DOM, sync | Flowcharts, simple diagrams |
-| **CDN mermaid** | `render.cjs` | Chromium (Playwright) | Complex diagrams with subgraphs |
+| **beautiful-mermaid** | `src/render-beautiful.mjs` | zero-DOM, sync | Flowcharts, simple diagrams |
+| **CDN mermaid** | `src/render.cjs` | Chromium (Playwright) | Complex diagrams with subgraphs |
 
 ## Usage
 
 ```bash
 # beautiful-mermaid (fast, zero-DOM)
-node render-beautiful.mjs
+node src/render-beautiful.mjs
 
 # CDN mermaid (full mermaid features)
-node render.cjs input.mmd output.png [scale]
+node src/render.cjs examples/input.mmd output.png [scale]
 ```
 
 ## Notes
 
 - `beautiful-mermaid` does not support `subgraph` — use CDN mermaid for those
 - Chromium binary expected at `~/.cache/ms-playwright/chromium-1228/chrome-linux64/chrome`
+- Example diagrams in `examples/`
